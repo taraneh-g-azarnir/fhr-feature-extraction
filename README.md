@@ -17,8 +17,3 @@ Make sure dependencies are installed:
 
 ```bash
 pip install -r requirements.txt
-Run the feature extraction pipeline:
-python src/feature_extraction.py \
-  --signals-dir data/signals \
-  --output results/fhr_features.xlsx
-```
