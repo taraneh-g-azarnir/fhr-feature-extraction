@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Mac system files
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+
+# Output files
+results/
+*.xlsx
+*.csv
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
