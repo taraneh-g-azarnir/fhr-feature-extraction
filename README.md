@@ -32,7 +32,9 @@ fhr-feature-extraction/
 
 This project is designed for fetal monitoring signals from the SBU public dataset:
 
-https://preana-fo.ece.stonybrook.edu/database.html
+https://preana-fo.ece.stonybrook.edu/database.html 
+
+---
 
 ## Installation
 
@@ -42,4 +44,16 @@ Clone the repository and install dependencies:
 git clone https://github.com/taraneh-g-azarnir/fhr-feature-extraction.git
 cd fhr-feature-extraction
 pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+Run the pipeline:
+
+```bash
+python src/fhr_feature_extraction.py \
+  --signals-dir data/signals \
+  --output results/fhr_features.xlsx
 ```
